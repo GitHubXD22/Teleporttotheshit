@@ -1,0 +1,8 @@
+local player = game.Players.LocalPlayer
+local rootPart = player.Character.HumanoidRootPart
+
+-- Create a new CFrame with the new position and orientation
+local newCFrame = CFrame.new(-1041.23303, 199.046875, 90.9466019, -1, 0, 0, 0, -1, 0, 0, 0, 1)
+
+-- Set the rootPart's CFrame
+rootPart.CFrame = newCFrame
